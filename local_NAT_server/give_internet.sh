@@ -51,4 +51,5 @@ sleep 1
 echo "1" | sudo tee /proc/sys/net/ipv4/ip_forward
 echo "All done! Youre awesome!!!"
 sleep 1
+echo "Now connect to your remote server (in local network) via ssh and run there the take-internet.sh"
 exit
